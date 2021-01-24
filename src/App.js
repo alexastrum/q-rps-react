@@ -6,7 +6,7 @@ export default function App() {
     <div>
       <h1>Rock, paper, scissors game</h1>
       <ol>
-        <li>Implement game logic in service.js</li>
+        <li>Implement game logic in game.js</li>
         <li>Implement primitive UI for player to choose their move</li>
         <li>Implement primitive UI to show the game results</li>
         <li>
