@@ -11,13 +11,13 @@ const GameResult = Object.freeze({
 
 class Game {
   /**
-   * @type GameChoice
+   * @type {string} GameChoice
    */
   computerMove;
 
   /**
-   * @param playerMove {GameChoice}
-   * @returns {GameResult}
+   * @param playerMove {string} GameChoice
+   * @returns {number} GameResult
    */
   play(playerMove) {
     throw new Error('Not implemented!');
